@@ -1,0 +1,30 @@
+{
+  "_comment": "短剧自动写作配置模板。复制本文件并修改参数，作为 autoWriteDrama 的输入。所有参数都有默认值，仅需提供 storyIdea 或 outline + endEpisode 即可运行。",
+  "projectType": "script",
+  "storyIdea": "在这里填写故事创意。例：都市女孩继承乡下老宅，发现祖辈留下的秘密，与神秘邻居展开一段治愈系爱情。",
+  "outline": "",
+  "_outline_comment": "已有大纲则粘贴到这里，提供则跳过大纲生成。留空则用 storyIdea 自动生成。",
+  "advisorStyle": "hollywood",
+  "_advisorStyle_comment": "写作风格ID。剧本类: hollywood/classical/hero/nolan/comedy/horror/sci-fi。小说类: classic_literature/modernist/web_xianxia/mystery/sci_fi_fantasy/romance_healing/hot_blooded。见 references/writing-styles.md",
+  "startEpisode": 1,
+  "endEpisode": 10,
+  "totalEpisodes": 10,
+  "model": "auto",
+
+  "expertReviewEnabled": true,
+  "_expertReviewEnabled_comment": "是否启用专家评审团。关闭则只做初稿+质量飞轮，不spawn专家子代理。",
+  "maxDiscussionRounds": 2,
+  "_maxDiscussionRounds_comment": "专家讨论最大轮数。1=单轮各自表态；2=多轮(能看到彼此意见并反驳)。追求完美用3。",
+  "reviewExperts": ["scriptPlanner", "characterDesigner", "dialogueCoach", "editingGuide", "emotionGuide", "scriptAuditor"],
+  "_reviewExperts_comment": "评审专家列表。默认6人核心团。追求完美用全部12人(加: creativeDirector/sceneDirector/performanceConsultant/visualDesigner/actionDirector/worldBuilder)。",
+
+  "qualityFlywheelEnabled": true,
+  "_qualityFlywheelEnabled_comment": "是否启用质量飞轮迭代。关闭则只评分一次不重写。",
+  "maxQualityIterations": 2,
+  "_maxQualityIterations_comment": "质量飞轮最大迭代次数(每次=1评分+1重写)。追求完美用3。",
+  "targetScore": 80,
+  "_targetScore_comment": "目标综合评分(0-100)。达标即停止迭代。80=良好,90=优秀,越高成本越高。",
+
+  "globalConsistencyCheck": true,
+  "_globalConsistencyCheck_comment": "全集完成后是否做全局一致性检查。"
+}

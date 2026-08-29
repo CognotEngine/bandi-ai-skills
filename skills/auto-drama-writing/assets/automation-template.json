@@ -1,0 +1,40 @@
+{
+  "_comment": "WorkBuddy 定时任务配置模板。用 automation_update 工具创建定时写作任务时参考本模板。prompt 应自包含(含故事创意/风格/进度/目标)，因为 automation 运行时无当前对话上下文。",
+
+  "_example_daily": {
+    "_desc": "示例1：每天9点写2集",
+    "name": "短剧每日自动写作",
+    "scheduleType": "recurring",
+    "rrule": "FREQ=DAILY;HOUR=9;MINUTE=0",
+    "status": "ACTIVE",
+    "prompt": "使用 auto-drama-writing 技能继续写作短剧《XXX》。故事创意：[粘贴故事创意]。写作风格：hollywood。请先读取工作目录下已有的 auto-drama-*.md 文件，确定已写到的集号，从下一集开始续写2集。每集用6人核心专家团做2轮评审，质量飞轮目标80分。完成后更新剧本文件并交付。"
+  },
+
+  "_example_weekly": {
+    "_desc": "示例2：每周一三五晚8点写1集",
+    "name": "短剧每周定时写作",
+    "scheduleType": "recurring",
+    "rrule": "FREQ=WEEKLY;BYDAY=MO,WE,FR;HOUR=20;MINUTE=0",
+    "status": "ACTIVE",
+    "prompt": "使用 auto-drama-writing 技能续写短剧。读取已有剧本文件确定进度，续写1集。风格 web_xianxia，6专家2轮评审，目标80分。"
+  },
+
+  "_example_oneshot": {
+    "_desc": "示例3：一次性今晚10点写完剩余全部",
+    "name": "短剧一次性写完",
+    "scheduleType": "once",
+    "scheduledAt": "2026-07-25T22:00",
+    "prompt": "使用 auto-drama-writing 技能，一次性写完短剧剩余所有集数（从当前进度到第20集）。12专家全员3轮评审，质量飞轮目标90分求完美。完成后交付完整剧本。"
+  },
+
+  "_rrule_cheatsheet": {
+    "每天": "FREQ=DAILY;HOUR=9",
+    "每N天": "FREQ=DAILY;INTERVAL=N;HOUR=9",
+    "每周": "FREQ=WEEKLY;HOUR=9",
+    "每周一三五": "FREQ=WEEKLY;BYDAY=MO,WE,FR;HOUR=20",
+    "每月1号": "FREQ=MONTHLY;BYMONTHDAY=1;HOUR=9",
+    "每小时": "FREQ=HOURLY"
+  },
+
+  "_prompt_template": "使用 auto-drama-writing 技能写作短剧。故事创意：{创意}。风格：{风格}。{读取进度：从已有文件确定已写集号}。本次写{N}集（从第X集到第Y集）。{评审：6专家2轮 / 12专家3轮}。质量目标：{80/90}分。完成后输出到 auto-drama-{名称}.md 并交付。"
+}

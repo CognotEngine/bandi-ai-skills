@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360">
+  <rect width="360" height="360" rx="24" fill="#0d1117"/>
+  <rect x="18" y="18" width="324" height="324" rx="14" fill="none" stroke="#3fb950" stroke-width="2" stroke-dasharray="8 6"/>
+  <g fill="#56d364">
+    <rect x="40" y="40" width="52" height="52" rx="6"/>
+    <rect x="104" y="40" width="52" height="52" rx="6"/>
+    <rect x="168" y="40" width="52" height="52" rx="6"/>
+    <rect x="40" y="104" width="52" height="52" rx="6"/>
+    <rect x="168" y="104" width="52" height="52" rx="6"/>
+    <rect x="40" y="168" width="52" height="52" rx="6"/>
+    <rect x="104" y="168" width="52" height="52" rx="6"/>
+    <rect x="168" y="168" width="52" height="52" rx="6"/>
+    <rect x="104" y="232" width="52" height="52" rx="6"/>
+    <rect x="168" y="232" width="52" height="52" rx="6"/>
+    <rect x="40" y="232" width="52" height="52" rx="6"/>
+  </g>
+  <rect x="104" y="104" width="52" height="52" rx="6" fill="#f6c344"/>
+  <text x="180" y="330" text-anchor="middle" font-family="system-ui, sans-serif" font-size="17" fill="#8b949e">请替换为你的微信二维码</text>
+</svg>

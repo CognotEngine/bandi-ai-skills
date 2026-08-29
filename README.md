@@ -8,7 +8,6 @@
 <a href="./LICENSE"><img src="https://img.shields.io/badge/License-BMSOL--1.0-FFD700" alt="License"></a>
 <img src="https://img.shields.io/badge/Skills-2-4FC08D" alt="Skills">
 <img src="https://img.shields.io/badge/%E7%BA%AF%E6%96%87%E6%9C%AC%E6%8C%87%E4%BB%A4-%E9%9B%B6%E4%BE%9D%E8%B5%96-9CF" alt="零依赖">
-<img src="https://img.shields.io/badge/Platform-WorkBuddy%20%26%20Any%20Agent-000" alt="Platform">
 <a href="./CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen" alt="PRs"></a>
 </p>
 

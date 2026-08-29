@@ -101,6 +101,8 @@ bandy-ai-skills/
 | ![打赏二维码](docs/assets/contact/zanshang.jpg) | ![联系微信](docs/assets/contact/shequn.png) |
 | 请我喝杯咖啡 ☕ | 授权 / 商务 / 赞助 / 反馈 |
 
+- ** <a href="https://www.youtube.com/@bendi_cn">YouTube 
+- **<a href="https://www.youtube.com/@bendi_cn">X
 - **个人商用:免费**,无需授权,直接开干;
 - **企业商用 / 赞助 / 合作**:微信备注来意,24 小时内回复。
 

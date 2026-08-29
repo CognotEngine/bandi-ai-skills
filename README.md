@@ -98,7 +98,7 @@ bandy-ai-skills/
 
 | 打赏支持 | 联系微信 |
 | :-: | :-: |
-| ![打赏二维码](docs/assets/contact/zanshang.png) | ![联系微信](docs/assets/contact/shequn.jpg) |
+| ![打赏二维码](docs/assets/contact/zanshang.jpg) | ![联系微信](docs/assets/contact/shequn.jpg) |
 | 请我喝杯咖啡 ☕ | 授权 / 商务 / 赞助 / 反馈 |
 
 - **个人商用:免费**,无需授权,直接开干;

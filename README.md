@@ -115,7 +115,7 @@ bandy-ai-skills/
 
 | 🔴 YouTube | 🐦 X | 📱 抖音 |
 | :-: | :-: | :-: |
-| [@bendi_cn](https://www.youtube.com/@bendi_cn) | [@bendi_cn](https://x.com/bendi_cn) | [抖音主页](https://v.douyin.com/auNE2DGzkFs/) |
+| [@bendi_cn](https://www.youtube.com/@bendi_cn) | [@bendi_cn](https://x.com/CognotEngine) | [抖音主页](https://v.douyin.com/auNE2DGzkFs/) |
 
 - **个人商用:免费**,无需授权,直接开干;
 - **企业商用 / 赞助 / 合作**:微信备注来意,24 小时内回复。
